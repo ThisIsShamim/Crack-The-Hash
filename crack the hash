@@ -1,1 +1,3 @@
 for some hashes u will have to need some filterd password so lets filter password from rockyou.txt in 4 lenth
+for see how many attempts are there in file ...so this command is : wc -l rockyou.txt
+for filter password : the command is sudo grep -x './{4,4}/' rockyou.txt > shamim.txt
