@@ -1,0 +1,28 @@
+git is tool or we can take him as a softwere 
+github is a website
+
+git configuration:
+
+git config --global user.name "Shammim"
+git config --global user.name example@email.com
+git config --list
+git status  //checking a status
+
+git remote rm origin  //remove a origin 
+git remote add origin https://github.com/ThisIsShamim/myuni-demo.git  //add a origin 
+git push origin main  ///push local to remote 
+
+git checkout -b feature1  ///create a branch
+git checkout main ///change the branch
+git branch -d feature  ///to delete the branch
+git branch // to check the branch 
+git branch -M main // to rename the branch
+
+ls -a
+
+https://github.com/infoslack/awesome-web-hacking.git
+
+
+///compare to two branch 
+git diff main //if you are in another branch 
+git marge main //merge with branch
